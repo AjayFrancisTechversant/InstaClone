@@ -8,7 +8,7 @@ const styles = (
   screenContext: ScreenContextType,
 ) =>
   StyleSheet.create({
-    container: {},
+    container: {padding: height * 0.02, flex: 1},
   });
 
 export default styles;

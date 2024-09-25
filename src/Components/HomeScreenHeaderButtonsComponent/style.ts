@@ -8,7 +8,11 @@ const styles = (
   screenContext: ScreenContextType,
 ) =>
   StyleSheet.create({
-    container: {},
+    container: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      width: width * 0.3,
+    },
   });
 
 export default styles;
